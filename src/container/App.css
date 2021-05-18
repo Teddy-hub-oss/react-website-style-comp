@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+.app {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1280px;
+  min-height: 100vh;
+  border-radius: 10px;
+  flex-direction: column;
+  background-color: #ffffff;
+  /* text-align: center; */
+}
+
+@media (min-width: 800px) {
+  .app {
+    padding: 0 100px;
+    margin-top: 5vh;
+    min-height: 90vh;
+  }
+}
