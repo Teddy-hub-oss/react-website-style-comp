@@ -5,6 +5,7 @@ const Navbar = () => {
      <>
       <nav>
        <Navbar />
+       <Navbar />
       </nav>
      </>
     )
