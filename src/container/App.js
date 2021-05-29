@@ -1,17 +1,20 @@
 import React from 'react'
 import './App.css'
-// import { IconContext } from 'react-icons'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { IconContext } from 'react-icons'
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
+import { Navbar } from '../components/sections'
 
 
 const App = () => {
   return (
    <div className="App">
-    <Navbar />
-    <Navbar />
+   <Router>
+   <Navbar />
+   </Router>
+    
    </div>
 
   )
 }
 
-export default App;
+export default App
