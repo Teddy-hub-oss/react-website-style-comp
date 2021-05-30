@@ -1,9 +1,15 @@
-import React from 'react'
-import { Nav, NavbarContainer, NavLogo, NavIcon } from './Navbar.elements'
+import React, {useState} from 'react'
+import { FaBars, FaTimes} from 'react-icons/fa'
+import { Nav, NavbarContainer, NavLogo, NavIcon, MobileIcon } 
+from './Navbar.elements'
 import { Container } from '../../globalStyles'
 
 
 const Navbar = () => {
+const [click, setClick] = useState(false)
+
+const HandleClick = () => setClick(!click)
+
     return (
      <>
    <Nav>
@@ -12,6 +18,9 @@ const Navbar = () => {
     <NavIcon />
     OULIX
     </NavLogo>
+    <MobileIcon onClick={HandleClick}>
+     {click ? <FaTimes /> : <FaBars />}
+    </MobileIcon>
    </NavbarContainer>
    </Nav>
      </>
