@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import { FaBars, FaTimes} from 'react-icons/fa'
 import { Nav, NavbarContainer, NavLogo, NavIcon, MobileIcon } 
-from './Navbar.elements'
+import Navbar from './Navbar.elements'
 import { Container } from '../../globalStyles'
 
 
