@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 // import { FaMagento } from 'react-icons/fa'
-import {FiLink2 } from 'react-icons/fi'
+import {MdFlipToBack } from 'react-icons/md'
 import { Link } from 'react-router-dom'
 import { Container } from '../../globalStyles'
 
@@ -18,11 +18,14 @@ z-index: 999;
 
 export const NavbarContainer = styled(Container)`
  display: flex;
- justify-content: space-around;
- height: 80px;
+ justify-content: space-between;
+ align-items: center;
 
  ${Container}
+
+
 `
+
 export const NavLogo = styled(Link) `
  color: #fff;
  justify-self: flex-start;
@@ -33,21 +36,24 @@ export const NavLogo = styled(Link) `
  align-items: center;
 `
 
-export const NavIcon = styled(FiLink2) `
+export const NavIcon = styled(MdFlipToBack) `
  margin-right: 0.5rem;
+
 `
 
 export const MobileIcon = styled.div `
- display: none;
-
+   /* display: none; */
+   font-size: 2.2rem;
  @media screen and (max-width: 960px) {
      display: block;
      position: apsolute;
      top: 0;
      right: 0;
-     transform: translate(-100%, 60%);
-     font-size: 1.Brem;
+     /* transform: translate(-100%, 60%); */
+     font-size: 2.8rem;
      cursor: pointer;
  }
-
 `
+
+
+
