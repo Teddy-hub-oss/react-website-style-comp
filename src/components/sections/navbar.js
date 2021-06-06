@@ -34,6 +34,7 @@ const showButton = () => {
 useEffect(() => {
   showButton()
 }, [])
+window.addEventListener('resize', showButton)
     return (
      <>
      <IconContext.Provider value={{ color: '#fff'}}> 
