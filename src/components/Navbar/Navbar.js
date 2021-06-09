@@ -36,7 +36,7 @@ useEffect(() => {
 }, [])
 window.addEventListener('resize', showButton)
     return (
-     <>
+     <div>
      <IconContext.Provider value={{ color: '#fff'}}> 
    <Nav>
    <NavbarContainer>
@@ -76,7 +76,7 @@ window.addEventListener('resize', showButton)
    </NavbarContainer>
    </Nav>
    </IconContext.Provider>
-     </>
+     </div>
     )
 }
 

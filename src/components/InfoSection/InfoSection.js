@@ -1,11 +1,25 @@
 import React from 'react'
-import {InfoSec} from './InfoSection.element'
+import { Link } from 'react-router-dom'
+import { Container} from '../../globalStyles'
+import { 
+    InfoSec,
+    InfoRow,
+    InfoColumn,
+    TextWrapper} from './InfoSection.elements' 
 
-const InfoSection = ({ lightBg }) => {
+const InfoSection = ({ lightBg, imgStart }) => {
     return (
-        <>
-         <infoSec lightBg={lightBg}>h1</infoSec>   
-        </>
+        <div>
+         <InfoSec lightBg={lightBg}>
+          <Container>
+          <InfoRow imgStart={imgStart}>
+           <InfoColumn>
+           <TextWrapper>h</TextWrapper>
+           </InfoColumn>
+          </InfoRow>
+          </Container>
+         </InfoSec>   
+        </div>
     )
 }
 
