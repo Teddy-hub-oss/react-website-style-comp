@@ -14,7 +14,7 @@ const InfoSection = ({ lightBg, imgStart }) => {
           <Container>
           <InfoRow imgStart={imgStart}>
            <InfoColumn>
-           <TextWrapper>h</TextWrapper>
+           <TextWrapper>text</TextWrapper>
            </InfoColumn>
           </InfoRow>
           </Container>
