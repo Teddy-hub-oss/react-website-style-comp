@@ -9,8 +9,20 @@ export const HomeObjOne = {
  lightTextDesc: true, 
  primary: true,
  buttonLabel: 'Get Started',
- description: 'We help bussniess owners increase their renenue. Pur team of uniqe specialist can help you acheive your business goals.', 
+ description: 'We help bussniess owners increase their renenue. We help you build a cohesive marketing plan from visitor to booking', 
  img: require('../../assets/images/modal.jpg'),
  alt: 'Credit Card', 
  start: ''
+}
+
+export const HomeObjTwo = {
+ 
+}
+
+export const HomeObjThree = {
+
+}
+
+export const HomeObjFour = {
+    
 }
