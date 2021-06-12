@@ -4,7 +4,7 @@ export const HomeObjOne = {
  imgStart: '', 
  lightTopLine: true, 
  topLine: 'Photography Agency ', 
- headline: 'Lead Generation Course for Photographers', 
+ headline: 'Lead Generation Specialist Course for Photographers', 
  lightText: true, 
  lightTextDesc: true, 
  primary: true,
