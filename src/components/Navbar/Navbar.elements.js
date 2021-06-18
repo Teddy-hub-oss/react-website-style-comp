@@ -28,7 +28,7 @@ export const NavLogo = styled(Link) `
  justify-self: flex-start;
  cursor: pointer;
  text-decoration: none;
- font-size: 2rem;
+ font-size: 3rem;
  display: flex;
  align-items: center;
 `
@@ -73,7 +73,7 @@ export const NavMenu = styled.ul `
 export const NavItem = styled.li `
   height: 80px;
   border-bottom: 2px solid transparent;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 
   &:hover {
     border-bottom: 2px solid #4b59f7;
@@ -92,7 +92,7 @@ export const NavLinks = styled(Link) `
  display: flex;
  align-items: center;
  text-decoration: none;
- padding: 0.5rem 1rem;
+ padding: 0.5rem 2rem;
  height: 100%;
  
  @media screen and (max-width: 960px) {

@@ -15,7 +15,7 @@ html {
   border-radius: 10px;
   flex-direction: column;
   background-color: #ffffff;
-  /* text-align: center; */
+  text-align: center;
 }
 
 @media (min-width: 800px) {

@@ -1,7 +1,7 @@
 import React, { useState, useEffect} from 'react'
 import {GoThreeBars} from 'react-icons/go'
 import {FaTimes} from 'react-icons/fa'
-import { Container, Button } from '../../globalStyles'
+import {  Button } from '../../globalStyles'
 import { IconContext } from 'react-icons/lib' 
 
 import { 
@@ -48,8 +48,10 @@ window.addEventListener('resize', showButton)
      {click ? <FaTimes /> : <GoThreeBars />}
     </MobileIcon>
      <NavMenu onClick={handleClick}  click={click}>
-     <NavItem><NavLinks to='home'>
-       Home</NavLinks>
+     <NavItem>
+     <NavLinks to='/'>
+       Home
+       </NavLinks>
     </NavItem>
 
     <NavItem>
