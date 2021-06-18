@@ -1,11 +1,13 @@
 import React from 'react'
+import { HomeObjOne, HomeObjThree } from '../SignUp/Data'
+import  InfoSection from '../../components/InfoSection/InfoSection'
 
-function SingUp() {
-    return (
-        <div>
-            
-        </div>
-    )
+const SignUp = () => {
+  <div>
+  <InfoSection {...HomeObjOne} />
+  <InfoSection {...HomeObjThree} />
+   
+  </div>
 }
 
-export default SingUp
+export default SignUp
