@@ -57,7 +57,7 @@ export const HomeObjFour = {
     primary: true,
     buttonLabel: 'Get Started',
     description: 'A step-by-step guide to launching your own successful photography business! ', 
-    img: require('../../assets/images/oulixw.png'),
+    img: require('../../assets/images/oulix1.jpg'),
     alt: 'Credit Card', 
     start: 'true'
 }
