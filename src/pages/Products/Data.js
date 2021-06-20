@@ -9,7 +9,7 @@ export const HomeObjOne = {
     primary: true,
     buttonLabel: 'Get Started',
     description: 'We help bussniess owners increase their renenue. We help you build a cohesive marketing plan from visitor to booking', 
-    img: require('../../assets/images/modal.jpg'),
+    img: require('../../assets/images/oulix-5.jpg'),
     alt: 'Credit Card', 
     start: ''
    }
@@ -25,7 +25,7 @@ export const HomeObjOne = {
     primary: false,
     buttonLabel: 'View & Explore',
     description: 'Discover thousands of classes to make the most of your camera and take your best images yet.', 
-    img: require('../../assets/images/photo-15.jpg'),
+    img: require('../../assets/images/oulix-5.jpg'),
     alt: 'Credit Card', 
     start: 'true'
 }
@@ -41,7 +41,7 @@ export const HomeObjThree = {
     primary: true,
     buttonLabel: 'Get Started',
     description: "From portraiture to landscapes, cityscapes to nighttime, create photo projects to spark inspiration and find your signature style.", 
-    img: require('../../assets/images/oulixp.jpg'),
+    img: require('../../assets/images/oulixx.jpg'),
     alt: 'Credit Card', 
     start: ''
 }
@@ -57,7 +57,7 @@ export const HomeObjFour = {
     primary: true,
     buttonLabel: 'Get Started',
     description: 'A step-by-step guide to launching your own successful photography business! ', 
-    img: require('../../assets/images/oulix1.jpg'),
+    img: require('../../assets/images/oulixx.jpg'),
     alt: 'Credit Card', 
     start: 'true'
 }
