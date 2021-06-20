@@ -63,13 +63,13 @@ window.addEventListener('resize', showButton)
     </NavItem>
       <NavItemBtn>
        {button ? (
-         <NavBtnLink to="/sing-up">
-         <Button primary>SING UP</Button>
+         <NavBtnLink to='/signup'>
+         <Button primary>SIGN UP</Button>
          </NavBtnLink>
        ) : (
-         <NavBtnLink to="/sing-up">
+         <NavBtnLink to='/signup'>
           <Button onClick={closeMobileMenu} fontBig primary>
-            SING UP
+            SIGN UP
           </Button>
          </NavBtnLink>
        )}
