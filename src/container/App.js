@@ -8,7 +8,7 @@ import Home from '../pages/HomePage/Home'
 import Products from '../pages/Products/Products'
 import Services from '../pages/Services/Services'
 import SignUp from '../pages/SignUp/SignUp'
-
+// import ScrollToTop from '../components/ScrollToTop'
 
 
 const App = () => {
@@ -16,6 +16,7 @@ const App = () => {
   
   <Router>
    <GlobalStyle />
+  
    <Navbar />
    <Switch>
       <Route path='/' exact component={Home} />

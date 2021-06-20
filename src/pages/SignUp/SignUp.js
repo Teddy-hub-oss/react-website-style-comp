@@ -1,11 +1,12 @@
 import React from 'react'
-import {  HomeObjThree} from '../HomePage/Data'
+import { HomeObjThree, HomeObjFour} from '../SignUp/Data'
 import  InfoSection from '../../components/InfoSection/InfoSection'
 
 const SignUp =  () => {
     return (
         <div>
          <InfoSection {...HomeObjThree} />
+         <InfoSection {...HomeObjFour} />
         </div>
     )
 }

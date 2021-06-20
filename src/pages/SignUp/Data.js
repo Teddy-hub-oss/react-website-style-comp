@@ -34,14 +34,14 @@ export const HomeObjThree = {
     lightBg: false, 
     imgStart: '', 
     lightTopLine: true, 
-    topLine: 'Instant Setup', 
-    headline: "Projects & Personal Style", 
+    topLine: 'Sign up Today', 
+    headline: "Join today to receive an exclusive offer", 
     lightText: true, 
     lightTextDesc: true, 
     primary: true,
-    buttonLabel: 'Get Started',
-    description: "From portraiture to landscapes, cityscapes to nighttime, create photo projects to spark inspiration and find your signature style.", 
-    img: require('../../assets/images/oulixp.jpg'),
+    buttonLabel: 'Sign Up',
+    description: "Get access to our exclusive pohotography.Share your creative brief with us to identify the best custom shoot solution. ", 
+    img: require('../../assets/images/oulixm.jpg'),
     alt: 'Credit Card', 
     start: ''
 }
@@ -56,8 +56,8 @@ export const HomeObjFour = {
     lightTextDesc: true, 
     primary: true,
     buttonLabel: 'Get Started',
-    description: 'A step-by-step guide to launching your own successful photography business! ', 
-    img: require('../../assets/images/oulix1.jpg'),
+    description: 'Direct access to our world-class talent, including photography art direction and project management with price flexible options to produce deliver and license content.', 
+    img: require('../../assets/images/oulixt.jpg'),
     alt: 'Credit Card', 
     start: 'true'
 }
