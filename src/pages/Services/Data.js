@@ -2,14 +2,14 @@ export const HomeObjOne = {
     lightBg: false, 
     imgStart: '', 
     lightTopLine: true, 
-    topLine: 'Photography Agency ', 
-    headline: 'Lead Generation Specialist Course for Photographers', 
+    topLine: 'Nature Photography ', 
+    headline: 'Nature photography is a versatile medium with a unique set of challenges', 
     lightText: true, 
     lightTextDesc: true, 
     primary: true,
     buttonLabel: 'Get Started',
-    description: 'We help bussniess owners increase their renenue. We help you build a cohesive marketing plan from visitor to booking', 
-    img: require('../../assets/images/modal.jpg'),
+    description: "Whether you're wxperimenting with shutter speed to catch an animal in motion, or you're trying out different depths of field in your close-ip flower photograph, it takes patience and creativity to successfully capture the great outdoors.", 
+    img: require('../../assets/images/oulixh.jpg'),
     alt: 'Credit Card', 
     start: ''
    }
@@ -18,14 +18,14 @@ export const HomeObjOne = {
     lightBg: true, 
     imgStart: 'start', 
     lightTopLine: false, 
-    topLine: 'Access to millions of images ', 
+    topLine: 'Studio Portrait Photography ', 
     headline: 'Explore our extensive library of images', 
     lightText: false, 
     lightTextDesc: false, 
     primary: false,
     buttonLabel: 'View & Explore',
     description: 'Discover thousands of classes to make the most of your camera and take your best images yet.', 
-    img: require('../../assets/images/photo-15.jpg'),
+    img: require('../../assets/images/oulixs.jpg'),
     alt: 'Credit Card', 
     start: 'true'
 }
@@ -41,7 +41,7 @@ export const HomeObjThree = {
     primary: true,
     buttonLabel: 'Get Started',
     description: "From portraiture to landscapes, cityscapes to nighttime, create photo projects to spark inspiration and find your signature style.", 
-    img: require('../../assets/images/oulixp.jpg'),
+    img: require('../../assets/images/oulixs.jpg'),
     alt: 'Credit Card', 
     start: ''
 }
@@ -50,14 +50,14 @@ export const HomeObjFour = {
     lightBg: false, 
     imgStart: 'start', 
     lightTopLine: true, 
-    topLine: 'Photography Agency ', 
-    headline: 'Your Road to Better Photography', 
+    topLine: 'wedding photography editing styles ', 
+    headline: 'Natural looking wedding photos which feature bright and clean editing', 
     lightText: true, 
     lightTextDesc: true, 
     primary: true,
     buttonLabel: 'Get Started',
-    description: 'A step-by-step guide to launching your own successful photography business! ', 
-    img: require('../../assets/images/oulix1.jpg'),
+    description: ' ', 
+    img: require('../../assets/images/oulix-wedding.jpg'),
     alt: 'Credit Card', 
     start: 'true'
 }

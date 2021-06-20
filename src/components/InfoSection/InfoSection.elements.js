@@ -52,7 +52,7 @@ margin-bottom: 16px;
 export const Subtitle = styled.p `
   max-width: 440px;
   margin-bottom: 35px;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 24px;
   color: ${({ lightTextDesc }) => (lightTextDesc ? '#a9b3c1' : '#1c2237')};
 `
@@ -71,7 +71,7 @@ export const Img = styled.img `
  max-width: 100%;
  vertical-align: middle;
  display: inline-block;
- max-height: 500px;
+ max-height: 600px;
 `
 
 export const ImgWrapper = styled.div `
