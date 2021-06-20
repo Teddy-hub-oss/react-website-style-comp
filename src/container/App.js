@@ -1,14 +1,15 @@
-import React, { Component, Fragment} from 'react'
+import React, { Component, Fragment, useEffect} from 'react'
 import './App.css'
 import { IconContext } from 'react-icons'
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Switch,  Route, withRouter, Link } from 'react-router-dom'
 import { Navbar, Footer} from '../components'
 import GlobalStyle from '../globalStyles'
 import Home from '../pages/HomePage/Home'
 import Products from '../pages/Products/Products'
 import Services from '../pages/Services/Services'
 import SignUp from '../pages/SignUp/SignUp'
-// import ScrollToTop from '../components/ScrollToTop'
+import ScrollToTop from '../components/ScrollToTop'
+
 
 
 const App = () => {
@@ -16,7 +17,7 @@ const App = () => {
   
   <Router>
    <GlobalStyle />
-  
+   <ScrollToTop />
    <Navbar />
    <Switch>
       <Route path='/' exact component={Home} />
